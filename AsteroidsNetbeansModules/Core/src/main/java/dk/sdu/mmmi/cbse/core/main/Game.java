@@ -145,4 +145,8 @@ public class Game implements ApplicationListener {
         }
 
     };
+
+    public GameData getGameData() {
+        return gameData;
+    }
 }
